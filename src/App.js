@@ -5,14 +5,6 @@ import './App.css';
 
 const API_URL = 'https://www.omdbapi.com/?apikey=6ea75112';
 
-// const movie1 ={
-// "Title": "Batman Begins",
-// "Year": "2005",
-// "imdbID": "tt0372784",
-// "Type": "movie",
-// "Poster": "https://m.media-amazon.com/images/M/MV5BMTYwODg3ODI0NV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg"
-// }
-
 const App = () => {
 
 const [movies, setMovies] = useState([]);
@@ -32,7 +24,7 @@ setMovies([]);
 };
 
 useEffect(() => {
-searchMovies('Batman');
+searchMovies('Spiderman');
 }, []);
 
 return (
